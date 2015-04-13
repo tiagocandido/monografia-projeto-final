@@ -13,12 +13,6 @@
 \contentsline {section}{\numberline {3.4}Quarta se\c c\~ao do segundo cap\IeC {\'\i }tulo}{3}
 \contentsline {subsection}{\numberline {3.4.1}Primeira subse\c c\~ao da quarta se\c c\~ao do segundo cap\IeC {\'\i }tulo}{4}
 \contentsline {subsubsection}{Primeira subsubse\c c\~ao da primeira subse\c c\~ao da quarta se\c c\~ao do segundo cap\IeC {\'\i }tulo}{4}
-\contentsline {chapter}{\numberline {4}T\'opicos diversos do Desenvolvimento}{5}
-\contentsline {section}{\numberline {4.1}Cita\c c\~oes longas}{5}
-\contentsline {section}{\numberline {4.2}Tabelas}{5}
-\contentsline {section}{\numberline {4.3}Figuras}{6}
-\contentsline {section}{\numberline {4.4}Refer\^encias}{6}
-\contentsline {section}{\numberline {4.5}Equa\c c\~oes}{6}
-\contentsline {chapter}{\numberline {5}Conclus\~ao}{8}
-\contentsline {chapter}{\numberline {6}Sugest\~oes para trabalhos futuros}{9}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{10}
+\contentsline {chapter}{\numberline {4}Conclus\~ao}{5}
+\contentsline {chapter}{\numberline {5}Sugest\~oes para trabalhos futuros}{6}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{7}

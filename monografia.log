@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.16)  13 APR 2015 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.16)  13 APR 2015 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -256,58 +256,38 @@ Cap\'{\i }tulo 2.
 Cap\'{\i }tulo 3.
 [3
 
-]) [4]
+]) (./conclusao/conclusao.tex [4]
 Cap\'{\i }tulo 4.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5
+) [5
 
 ]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 300.
-
- (/usr/local/texlive/2014basic/texmf-dist/tex/latex/ae/t1aett.fd
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-) [6]
-[7]
 Cap\'{\i }tulo 5.
-[8
+[6
 
-]
-Cap\'{\i }tulo 6.
-[9
-
-] [10
+] [7
 
 ] (./monografia.aux) ) 
 Here is how much of TeX's memory you used:
- 2366 strings out of 494522
- 32759 string characters out of 6167205
- 91899 words of memory out of 5000000
- 5504 multiletter control sequences out of 15000+600000
- 42553 words of font info for 77 fonts, out of 8000000 for 9000
+ 2345 strings out of 494522
+ 32397 string characters out of 6167205
+ 90899 words of memory out of 5000000
+ 5484 multiletter control sequences out of 15000+600000
+ 42064 words of font info for 75 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 37i,9n,23p,735b,213s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,4n,23p,735b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014basic/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2014basic/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014basic/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014basic/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2014basic/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014basic/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014bas
-ic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014
-basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2
-014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
-/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/
-texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/lo
-cal/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on monografia.pdf (19 pages, 201925 bytes).
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014basic/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014basic/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2014basic/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014basic/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on monografia.pdf (16 pages, 128618 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
