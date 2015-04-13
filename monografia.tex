@@ -199,102 +199,19 @@ Niterói-RJ\\2015
 
 %\newpage
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	               Dedicatória                     %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{dedicatoria/dedicatoria.tex}
 
-\begin{flushright}
-\begin{minipage}{0.5\textwidth}
+\input{agradecimentos/agradecimentos.tex}
 
-\vspace{15.0cm} % espaço do topo até o início da dedicatória 
+\input{lista_de_figuras/lista_de_figuras.tex}
 
-"Existem apenas duas coisas difíceis em Ciência da Computação: invalidação de de cache e dar nome às coisas." \\
-(KARLTON, Phil)
+\input{lista_de_tabelas/lista_de_tabelas.tex}
 
-\end{minipage}
-\end{flushright}
+\input{sumario/sumario.tex}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	              Agradecimentos                   %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{resumo/resumo.tex}
 
-\chapter*{Agradecimentos}
-\addcontentsline{toc}{chapter}{Agradecimentos}
-
-\thispagestyle{myheadings}
-
-\noindent
-
-Espaço reservado para os agradecimentos.
-
-Agradecimento 1.
-
-Agradecimento 2.
-
-...
-
-Agradecimento N.
-
-Os agradecimentos devem ser sucintos e específicos
-a cada tipo de ajuda, a cada idéia relevante, 
-a cada empréstimo significativo, pois um agradecimento
-é, de certa forma, um crédito dado a alguém \cite{norma:esjo2005}.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                  Lista de Ilustrações                %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\listoffigures
-\addcontentsline{toc}{chapter}{Lista de Figuras}
-
-\thispagestyle{myheadings}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                   Lista de Tabelas                   %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\listoftables
-\addcontentsline{toc}{chapter}{Lista de Tabelas}
-
-\thispagestyle{myheadings}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                       Sumário                        %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\tableofcontents
-
-\thispagestyle{myheadings}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%            Resumo na língua vernácula            %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\chapter*{Resumo}
-\addcontentsline{toc}{chapter}{Resumo}
-
-\thispagestyle{myheadings}
-
-As disciplinas dos cursos da Universidade Federal Fluminense possuem informações alocadas em diversos Sistemas de Gestão de Aprendizado. Desta forma a tarefa de gerenciar os conteúdos disponibilizados pelos professores pode se tornar bastante custosa. 
-Com o objetivo de diminuir o trabalho manual realizado pelos alunos, propomos a criação de uma aplicação que possibilite agregar as informações das várias disciplinas em uma única interface de usuário, independente de onde ela foi disponibilizada pelo professor.
-Para alcançar este objetivo, desenvolvemos um aplicativo mo?vel multi­plataforma, que tem como propo?sito reunir, em uma u?nica ferramenta, mu?ltiplos ambientes de ensino, apresentando de maneira transparente ao usua?rio os servic?os oferecidos pelos diferentes ambientes de ensino, como eventos, to?picos, arquivos, mensagens, todos em uma u?nica interface. 
-	O uso do aplicativo tem como objetivo aproximar alunos e professores das diversas disciplinas ministradas na universidade, intensificar a interac?a?o das turmas, centralizar as informac?o?es e materiais da disciplina e prover uma comunicac?a?o ra?pida e eficiente. \\
-
-Palavras-chave: Sistema de Gestão de Aprendizado, Aplicação Mobile, Phonegap, Ruby on Rails.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                      Abstract                      %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\chapter*{Abstract}
-\addcontentsline{toc}{chapter}{Abstract}
-
-\thispagestyle{myheadings}
-
-This part is destined to the abstract of your monograph. It must be written in the vernacular language and in an idiom of great popularization (English, French, Spanish, for example). This part should be done at last, because just after finishing the work it will be possible an overall understanding of the same. The abstract should not bring any further information, it is just the summary of the relevants aspects of the monograph, such as work gender, finality, methodology, results and conclusions. It must be written impersonally, to possess an extension from 150 to 500 words typed in simple space and in only one paragraph. It must be followed by the keywords of your monograph.\\
-
-Keywords: Monograph. LaTeX. Hints.
-
+\input{abstract/abstract.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                Numeracao em arabico                %
@@ -305,111 +222,13 @@ Keywords: Monograph. LaTeX. Hints.
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                        Texto                         %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\chapter{Introdução}
-\thispagestyle{empty} % retira numeracao da pagina, conforme as normas de apresentacao.
-
-A monografia em si é composta por 3 etapas: introdução, desenvolvimento e conclusão. São nessas 3 etapas que a tese será defendida com argumentos lógicos e baseados em dados reais.
-
-A introdução é a parte inicial da sua tese. Nela, os temas de seu trabalho serão mostrados, mas sem muito aprofundamento teórico. É importante não confundir a introdução com o resumo. Eles, até certo ponto, possuem um grau de semelhança, entretanto, a introdução é muito mais aprofundada que o resumo e é escrita em vários parágrafos, sem restrição de número de palavras.
-
-Para a elaboração da introdução é aconselhável a execução por partes. A cada tema pesquisado, escreva o seu correspondente na introdução, pois desse modo quem estiver escrevendo terá muito mais o que falar sobre o tema e o fará com mais precisão do que se fosse escrever sobre todos os temas de uma vez.
-
-Enfim, a introdução é, como o próprio nome diz, a parte introdutória da monografia. Nela, os temas serão apresentados e já pode ser definida a maneira como determinado tema será abordado, desde que não se entre em muitos detalhes acerca do mesmo.
+\input{introducao/introducao}
 
 
-\chapter{Primeiro capítulo do Desenvolvimento}
-\thispagestyle{empty} % retira numeracao da pagina, conforme as normas de apresentacao.
-
-O desenvolvimento é a parte na qual serão feitas as argumentações de sua tese e serão confrontados seus dados para uma futura conclusão das idéias. Corresponde à etapa mais trabalhosa de sua monografia e à mais importante também.
-
-Os parágrafos podem ser curtos ou longos, dependendo das idéias apresentadas neles. Entretanto, parágrafos longos exigem certa atenção extra, pois podem ficar cansativos e prolixos. Por conta disso, é aconselhável que o desenvolvimento seja escrito inicialmente como rascunho. Faça a revisão deste algumas vezes, para aprimorá-lo, uma vez que, sendo esta parte longa, dificilmente será escrita perfeitamente em um primeiro momento.
-	
-Portanto, o desenvolvimento é o centro das argumentações de sua tese. Nele serão expostas idéias que contribuirão para a persuasão do leitor.
+\input{capitulo_1/capitulo_1}
 
 
-\chapter{Segundo capítulo do Desenvolvimento}
-\thispagestyle{empty} % retira numeracao da pagina, conforme as normas de apresentacao.
-
-
-No ambiente de edição de texto \LaTeX, 
-os textos podem ser divididos em fragmentos
-(parte \index{parte}, capítulo \index{capítulo!\verb=\=chapter}, 
-seção \index{seção}, subseção \index{subseção}, etc.).
-Em cada um dos fragmentos de um texto,
-o primeiro parágrafo \index{parágrafo} nunca é identado.
-
-
-Texto do segundo parágrafo.
-Continuação do texto.
-Continuação do texto.
-Continuação do texto.
-Continuação do texto.
-
-Texto de um novo parágrafo.
-Continuação do texto.
-Continuação do texto.
-Continuação do texto.
-Continuação do texto.
-
-
-\section{Primeira seção do segundo capítulo}
-
-Texto inicial...
-Texto inicial...
-Texto inicial...
-Texto inicial...
-Texto inicial...
-Texto inicial...
-Texto inicial...
-Texto inicial...
-
-\section{Segunda seção do segundo capítulo}
-
-Mais texto... Mais texto...
-Mais texto... Mais texto...
-Mais texto... Mais texto...
-Mais texto... Mais texto...
-
-\section{Terceira seção do segundo capítulo}
-
-Texto ... Texto ...
-Texto ... Texto ...
-Texto ... Texto ...
-Texto ... Texto ...
-
-\section{Quarta seção do segundo capítulo}
-
-Um alerta sobre a divisão do texto um subpartes 
-deve ser feito, conforme exemplo abaixo. 
-
-\subsection{Primeira subseção da quarta seção do segundo capítulo}
-
-Texto ... Texto ...
-Texto ... Texto ...
-Texto ... Texto ...
-Texto ... Texto ...
-
-\subsubsection{Primeira subsubseção da primeira subseção 
-               da quarta seção do segundo capítulo}
-
-Deve-se notar que uma subsubseção não é mais numerada,
-como é feito com o capítulo, com a seção e com a subseção.
-
-No \LaTeX, 
-considera-se que a quebra excessiva do texto em subpartes 
-confunde o leitor,
-pois, além de se ater ao assunto do texto, 
-ele ainda é obrigado a manter sua atenção presa à estrutura do texto. 
-
-Ao invés de quebrar o texto em inúmeras subpartes,
-recomenda-se que o texto seja melhor construído,
-chegando-se, no máximo, na profundidade de uma subsubseção.
-
-Para maiores informações, consulte o site do Comprehensive TeX Archive Network \cite{website:ctan}.
+\input{capitulo_2/capitulo_2}
 
 
 \chapter{Tópicos diversos do Desenvolvimento}
