@@ -1,0 +1,46 @@
+\chapter{Especificação de Software}
+\thispagestyle{empty} % retira numeracao da pagina, conforme as normas de apresentacao.
+
+\section{Descrição Geral}
+
+\subsection{Perspectiva do produto}
+
+O produto implementa uma interface para outros sistemas já existentes estendendo suas funcionalidades. O produto consiste de uma aplicação móvel cliente e uma aplicação web remota que acessa as interfaces públicas dos sistemas terceiros. A aplicação web oferece uma API que atende os pedidos da aplicação móvel, intermediando o acesso aos sistemas externos.
+A aplicação web contará com uma base de dados auxiliara, para controle dos usuários e comunicação instantânea.
+
+\subsection{Funções do Produto}
+
+O produto oferece como principais funcionalidades , Tópicos (Grupo de Discussão), Envio de Arquivos, Calendário de Eventos da Disciplina, Mensageiro Instantâneo, Lista de Amigos e Envio de Mensagens.
+
+\subsection{Classes de Usuário e Caracterísiticas}
+
+As classes de usuários previstas serão, o aluno participante da disciplina, o professor da disciplina no papel de moderador do grupo, e os administradores do sistema que exercerão funções de manutenção do sistema.
+
+\subsection{Ambiente Operacional}
+
+A interface do usuário será executada em dispositivos móveis como smartphones e tablets, nos três sistemas operacionais mais utilizados, sendo eles o iOS da fabricante Apple, o Android da Google e o Windows Phone 8 da Microsoft.
+A aplicação remota será executada em uma máquina servidora com sistema operacional Linux, distribuição Ubuntu, com servidor web Apache ou Nginx com o módulo passenger-phusion devidamente configurado para servir aplicações Ruby on Rails, todos em suas versões mais recentes.
+
+\subsection{Restrições de Design e Implementação}
+Por se tratar de um trabalho acadêmico,  não haverão restrições de design e implementação rígidas, deixando os desenvolvedores juntamente ao orientador livres para escolher as tecnologias verificadas e tidas como adequadas para a solução.
+
+\subsection{Suposições e Dependências}
+
+O sistema tem como dependências a plataforma de desenvolvimento móvel Apache Cordova, o framework de desenvolvimento ágil Rails, o framework AngularJS, o framework de CSS Twitter Bootstrap e outros plugins ainda a serem indentificados no decorrer do desenvolvimento.
+
+\section{Requisitos de Interface Externa}
+
+\subsection{Interfaces de Usuário}
+As interfaces de usuário serão desenvolvidas com as tecnologias e padrões abertos web, Javascript, CSS3 e HTML5 e serão responsivas, se ajustando a diversos tipos de dispositivos e tamanhos de tela. Os esboços das interfaces são confeccionados com a ferramenta Ninja Mock e descrevem as principais interfaces no apêndice C.
+
+\subsection{Interfaces de Hardware}
+
+O software será executado em dispositivos móveis, smartphones e tablets, do tipo Android, Windows e iPhone que se comunicará com os serviços de uma aplicação intermediária, executada em um computador servidor web, que por sua vez se comunica com as APIs das diversas plataformas de ensino.
+
+\subsection{Interfaces de Software}
+
+O software executado no dispositivo móvel, utiliza o empasulamento de uma aplicação web para as diversas plataformas móveis através do framework phonegap, de forma totalmente transparente ao usuário que utiliza o software como um aplicativo nativo. Esta webapp se comunica com a aplicação servidora intermediária através de recursos web executados no software Apache ou Ngnx com o framework Rails. A aplicação intermediária por sua vez utiliza as intefaces disponibilizadas pelas plataformas de ensino, que podem ser diversas e implementadas sob a forma de plugins.
+
+\subsection{Interfaces de Comunicação}
+
+A comunicação é totalmente web, utilizando o protocolo HTTP entre a aplicação cliente, a aplicação web e as APIs das plataformas e ensino, seguindo o estilo arqutetural REST entre a a aplicação cliente e a camada intermediária.
