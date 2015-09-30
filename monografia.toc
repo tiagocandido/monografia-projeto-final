@@ -30,6 +30,19 @@
 \contentsline {subsection}{\numberline {4.2.2}Interfaces de Hardware}{6}
 \contentsline {subsection}{\numberline {4.2.3}Interfaces de Software}{6}
 \contentsline {subsection}{\numberline {4.2.4}Interfaces de Comunica\c c\~ao}{6}
-\contentsline {chapter}{\numberline {5}Conclus\~ao}{7}
-\contentsline {chapter}{\numberline {6}Sugest\~oes para trabalhos futuros}{8}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{9}
+\contentsline {section}{\numberline {4.3}Funcionalidades do Sistema}{7}
+\contentsline {subsection}{\numberline {4.3.1}Sincronizar com uma aplica\c c\~ao}{7}
+\contentsline {subsection}{\numberline {4.3.2}Acessar listagem de disciplinas}{8}
+\contentsline {subsection}{\numberline {4.3.3}Acessar detalhes de disciplinas}{8}
+\contentsline {subsection}{\numberline {4.3.4}Acessar listagem de arquivos}{8}
+\contentsline {subsection}{\numberline {4.3.5}Acessar detalhes de arquivos}{9}
+\contentsline {subsection}{\numberline {4.3.6}Baixar arquivos}{9}
+\contentsline {subsection}{\numberline {4.3.7}Apagar arquivos}{9}
+\contentsline {subsection}{\numberline {4.3.8}Acessar listagem de eventos}{10}
+\contentsline {subsection}{\numberline {4.3.9}Adicionar evento ao calend\'ario}{10}
+\contentsline {section}{\numberline {4.4}Outros requisitos n\~ao funcionais}{10}
+\contentsline {subsection}{\numberline {4.4.1}Requisitos de seguran\c ca}{10}
+\contentsline {subsection}{\numberline {4.4.2}Atributos de Qualidade de Software}{10}
+\contentsline {chapter}{\numberline {5}Conclus\~ao}{11}
+\contentsline {chapter}{\numberline {6}Sugest\~oes para trabalhos futuros}{12}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{13}

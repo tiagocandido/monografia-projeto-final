@@ -44,3 +44,253 @@ O software executado no dispositivo móvel, utiliza o empasulamento de uma aplica
 \subsection{Interfaces de Comunicação}
 
 A comunicação é totalmente web, utilizando o protocolo HTTP entre a aplicação cliente, a aplicação web e as APIs das plataformas e ensino, seguindo o estilo arqutetural REST entre a a aplicação cliente e a camada intermediária.
+
+\section{Funcionalidades do Sistema}
+
+\subsection{Sincronizar com uma aplicação}
+
+\begin{table}[h]
+  \caption{Sincronizar com uma aplicação}
+  \begin{tabular}{ p{.20\textwidth} | p{.80\textwidth} }
+    Trigger & O usuário acessa a aplicação\\
+    \hline
+    Pré condição & O usuário não sincronizou com nenhuma das aplicações anteriormente. O aparelho deve estar conectado à internet.\\
+    \hline
+    Caminho Básico &
+    \begin{minipage}{5in}
+      \vskip 4pt
+      \begin{enumerate}
+        \item O usuário escolhe a qual rede deseja se conectar selecionando com o toque na tela em um item dentre uma lista de opções.
+        \item O sistema exibe um formulário de login com um campo para o e-mail e outro para a senha.
+        \item O usuário preenche seus dados e seleciona sincronizar.
+        \item O sistema sincroniza com a aplicação escolhida e exibe a tela principal com as opções Disciplinas, Eventos, Arquivos e Configurações.
+      \end{enumerate}
+      \vskip 4pt
+    \end{minipage} \\
+    \hline
+    Caminho alternativo &
+    \begin{minipage}{5in}
+      \vskip 4pt
+      Se o usuário já sincronizou com alguma aplicação anteriormente ele deve seguir os seguintes passos:
+      \begin{enumerate}
+        \item O usuário seleciona Configurações na tela principal.
+        \item O usuário seleciona Contas Sincronizadas na tela de configurações.
+        \item O sistema exibe a tela com as opções de aplicações disponíveis para sincronização.
+        \item A partir daqui o usuário segue o caminho básico.
+      \end{enumerate}
+      \vskip 4pt
+    \end{minipage} \\
+    \hline
+    Pós condição & Informações da aplicação sincronizada devem ser baixadas para o aparelho.\\
+    \hline
+    Caminho de exceção & O usuário pode abandonar a operação a qualquer momento. Caso o usuário erre o login o sistema deve exibir a tela de login informando o erro.
+  \end{tabular}
+\end{table}
+
+\pagebreak
+
+\subsection{Acessar listagem de disciplinas}
+
+\begin{table}[h]
+  \caption{Acessar listagem de disciplinas}
+  \begin{tabular}{ p{.20\textwidth} | p{.80\textwidth} }
+    Trigger & O usuário acessa a aplicação.\\
+    \hline
+    Pré condição & O usuário está na tela do menu principal do sistema.\\
+    \hline
+    Caminho Básico &
+    \begin{minipage}{5in}
+      \vskip 4pt
+      \begin{enumerate}
+        \item O usuário seleciona a opção disciplinas no menu do sistema.
+        \item O sistema exibe uma tela com uma lista de todas as disciplinas sincronizadas com o aparelho. A listagem contém o nome da disciplina.
+      \end{enumerate}
+      \vskip 4pt
+    \end{minipage} \\
+    \hline
+    Caminho de exceção & O usuário pode abandonar a operação a qualquer momento.
+  \end{tabular}
+\end{table}
+
+\subsection{Acessar detalhes de disciplinas}
+
+\begin{table}[h]
+  \caption{Acessar detalhes de disciplinas}
+  \begin{tabular}{ p{.20\textwidth} | p{.80\textwidth} }
+    Trigger & O usuário acessou a tela de listagem de disciplinas.\\
+    \hline
+    Pré condição & O usuário possui alguma disciplina sincronizada com o aparelho.\\
+    \hline
+    Caminho Básico &
+    \begin{minipage}{5in}
+      \vskip 4pt
+      \begin{enumerate}
+        \item O usuário seleciona uma das disciplinas da listagem.
+        \item O sitema exibe uma tela contendo as seguintes informações sobre a disciplina: nome, últimos tópicos, próximos eventos e últimos arquivos.
+      \end{enumerate}
+      \vskip 4pt
+    \end{minipage} \\
+    \hline
+    Caminho de exceção & O usuário pode abandonar a operação a qualquer momento.
+  \end{tabular}
+\end{table}
+
+\subsection{Acessar listagem de arquivos}
+
+\begin{table}[h]
+  \caption{Acessar listagem de arquivos}
+  \begin{tabular}{ p{.20\textwidth} | p{.80\textwidth} }
+    Trigger & O usuário acessa a aplicação.\\
+    \hline
+    Pré condição & O usuário possui alguma disciplina sincronizada com o aparelho.\\
+    \hline
+    Caminho Básico &
+    \begin{minipage}{5in}
+      \vskip 4pt
+      \begin{enumerate}
+        \item O usuário seleciona a opção arquivos no menu do sistema.
+        \item O sistema exibe uma tela com uma lista de todos os arquivos sincronizados com o aparelho. A listagem contém as seguintes informações dos arquivos: nome, formato, quem o enviou, data e hora de envio. Os arquivos exibidos são organizados por disciplinas.
+      \end{enumerate}
+      \vskip 4pt
+    \end{minipage} \\
+    \hline
+    Caminho de exceção & O usuário pode abandonar a operação a qualquer momento.
+  \end{tabular}
+\end{table}
+
+\pagebreak
+
+\subsection{Acessar detalhes de arquivos}
+
+\begin{table}[h]
+  \caption{Acessar detalhes de arquivos}
+  \begin{tabular}{ p{.20\textwidth} | p{.80\textwidth} }
+    Trigger & O usuário acessou a tela de listagem de arquivos.\\
+    \hline
+    Pré condição & O usuário possui algum arquivo sincronizado com o aparelho.\\
+    \hline
+    Caminho Básico &
+    \begin{minipage}{5in}
+      \vskip 4pt
+      \begin{enumerate}
+        \item O usuário seleciona um dos arquivos da listagem.
+        \item O sitema exibe uma tela contendo as seguintes informações sobre o arquivo: nome, formato, tamanho, quem o enviou, data e hora do envio, um botão para baixá-lo.
+      \end{enumerate}
+      \vskip 4pt
+    \end{minipage} \\
+    \hline
+    Caminho de exceção & O usuário pode abandonar a operação a qualquer momento.
+  \end{tabular}
+\end{table}
+
+\subsection{Baixar arquivos}
+
+\begin{table}[h]
+  \caption{Baixar arquivos}
+  \begin{tabular}{ p{.20\textwidth} | p{.80\textwidth} }
+    Trigger & O usuário acessa a página de detalhes de um arquivo.\\
+    \hline
+    Pré condição & O usuário possui algum arquivo sincronizado com o aparelho. O aparelho deve estar conectado à internet.\\
+    \hline
+    Caminho Básico &
+    \begin{minipage}{5in}
+      \vskip 4pt
+      \begin{enumerate}
+        \item O usuário aperta o botão download.
+        \item O sistema inicia o download do arquivo selecionado.
+      \end{enumerate}
+      \vskip 4pt
+    \end{minipage} \\
+    \hline
+    Pós condição & O arquivo selecionado deve ser baixado para o aparelho do usuário e o sistema deve mostrar os botões para abrir e apagar o arquivo.\\
+    \hline
+    Caminho de exceção & O usuário pode abandonar a operação a qualquer momento.\\
+    \hline
+  \end{tabular}
+\end{table}
+
+\subsection{Apagar arquivos}
+
+\begin{table}[h]
+  \caption{Apagar arquivos}
+  \begin{tabular}{ p{.20\textwidth} | p{.80\textwidth} }
+    Trigger & O usuário acessa a página de detalhes de um arquivo.\\
+    \hline
+    Pré condição & O usuário possui algum arquivo baixado no aparelho.\\
+    \hline
+    Caminho Básico &
+    \begin{minipage}{5in}
+      \vskip 4pt
+      \begin{enumerate}
+        \item O usuário aperta o botão apagar.
+      \end{enumerate}
+      \vskip 4pt
+    \end{minipage} \\
+    \hline
+    Pós condição & O arquivo selecionado deve ser apagado do aparelho do usuário e o sistema deve exibir o botão para baixar o arquivo.\\
+    \hline
+    Caminho de exceção & O usuário pode abandonar a operação a qualquer momento.\\
+    \hline
+  \end{tabular}
+\end{table}
+
+\pagebreak
+
+\subsection{Acessar listagem de eventos}
+
+\begin{table}[h]
+  \caption{Acessar listagem de eventos}
+  \begin{tabular}{ p{.20\textwidth} | p{.80\textwidth} }
+    Trigger & O usuário acessa a aplicação.\\
+    \hline
+    Pré condição & O usuário está na tela do menu principal do sistema.\\
+    \hline
+    Caminho Básico &
+    \begin{minipage}{5in}
+      \vskip 4pt
+      \begin{enumerate}
+        \item O usuário seleciona a opção eventos no menu do sistema.
+        \item O sistema exibe uma tela com uma lista de todos os eventos sincronizados com o aparelho. A listagem contém as seguintes informações dos eventos: nome, data, hora e disciplina. Os eventos são exibidos separadamente entre próximos eventos e eventos passados.
+      \end{enumerate}
+      \vskip 4pt
+    \end{minipage} \\
+    \hline
+    Caminho de exceção & O usuário pode abandonar a operação a qualquer momento.\\
+    \hline
+  \end{tabular}
+\end{table}
+
+\subsection{Adicionar evento ao calendário}
+
+\begin{table}[h]
+  \caption{Adicionar evento ao calendário}
+  \begin{tabular}{ p{.20\textwidth} | p{.80\textwidth} }
+    Trigger & O usuário acessa a página de listagem de um evento.\\
+    \hline
+    Pré condição & O usuário possui algum evento sincronizado no aparelho.\\
+    \hline
+    Caminho Básico &
+    \begin{minipage}{5in}
+      \vskip 4pt
+      \begin{enumerate}
+        \item O usuário seleciona o ícone de adicionar situado ao lado do evento que deseja colocar no calendário.
+      \end{enumerate}
+      \vskip 4pt
+    \end{minipage} \\
+    \hline
+    Pós condição & O evento selecionado deve ser criado no calendário nativo do aparelho do usuário.\\
+    \hline
+    Caminho de exceção & O usuário pode abandonar a operação a qualquer momento.\\
+    \hline
+  \end{tabular}
+\end{table}
+
+\section{Outros requisitos não funcionais}
+
+\subsection{Requisitos de segurança}
+
+Para a utilização do sistema o usuário precisará sincronizar a aplicação com as plataformas disponíveis. Para tal será necessário uma autenticação, esta será feita pelas próprias plataformas integradas ao sistema.
+
+\subsection{Atributos de Qualidade de Software}
+
+O sistema precisa possuir uma arquitetura que permita uma fácil extensão através do desenvolvimento de plugins.

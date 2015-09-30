@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.23)  23 SEP 2015 19:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.23)  29 SEP 2015 23:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -182,7 +182,7 @@ e
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 123--128
-[]\T1/aer/m/n/10 Monografia apre-sen-tada ao ??De-par-ta-mento??
+[]\T1/aer/m/n/10 Monografia apre-sen-tada ao De-par-ta-mento
  []
 
 
@@ -226,144 +226,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 )
 (./sumario/sumario.tex [6
 
-] (./monografia.toc
-! Missing $ inserted.
-<inserted text> 
-                $
-l.23 ...2}Fun\~A\IeC {\S }\~A\mu es do Produto}{5}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\@dottedtocline ...\nobreak \hskip -\leftskip {#4}
-                                                  \nobreak \leaders \hbox {$...
-l.23 ...2}Fun\~A\IeC {\S }\~A\mu es do Produto}{5}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.23 ...2}Fun\~A\IeC {\S }\~A\mu es do Produto}{5}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.26 ...ementa\~A\IeC {\S }\~A\IeC {\pounds }o}{5}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 26.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 26.
-
-! Extra }, or forgotten $.
-\@dottedtocline ...\nobreak \hskip -\leftskip {#4}
-                                                  \nobreak \leaders \hbox {$...
-l.26 ...ementa\~A\IeC {\S }\~A\IeC {\pounds }o}{5}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.26 ...ementa\~A\IeC {\S }\~A\IeC {\pounds }o}{5}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no Ã in font cmr10!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.27 ...Depend\~A\IeC {\textordfeminine }ncias}{5}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 27.
-
-
-LaTeX Warning: Command \textordfeminine invalid in math mode on input line 27.
-
-! Extra }, or forgotten $.
-\@dottedtocline ...\nobreak \hskip -\leftskip {#4}
-                                                  \nobreak \leaders \hbox {$...
-l.27 ...Depend\~A\IeC {\textordfeminine }ncias}{5}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.27 ...Depend\~A\IeC {\textordfeminine }ncias}{5}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no Ã in font cmr10!
-[7
+] (./monografia.toc [7
 
 ])
 \tf@toc=\write5
 \openout5 = `monografia.toc'.
 
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.5 \tableofcontents
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.5 \tableofcontents
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.5 \tableofcontents
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-) (./resumo/resumo.tex [8]
+) (./resumo/resumo.tex
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 10--14
 
  []
@@ -393,43 +263,83 @@ Cap\'{\i }tulo 3.
 Cap\'{\i }tulo 4.
 [5
 
-]) (./conclusao/conclusao.tex [6]
+]
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 54--88
+[][] 
+ []
+
+[6] [7]
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 96--113
+[][] 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 119--136
+[][] 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 142--159
+[][] 
+ []
+
+[8]
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 167--184
+[][] 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 190--210
+[][] 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 216--235
+[][] 
+ []
+
+[9]
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 243--261
+[][] 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 267--286
+[][] 
+ []
+
+) (./conclusao/conclusao.tex [10]
 Cap\'{\i }tulo 5.
-) [7
+) [11
 
 ]
 Cap\'{\i }tulo 6.
-[8
+[12
 
-] [9
+] [13
 
 ] (./monografia.aux) ) 
 Here is how much of TeX's memory you used:
- 2358 strings out of 493089
- 32231 string characters out of 6134842
- 95712 words of memory out of 5000000
- 5717 multiletter control sequences out of 15000+600000
- 42762 words of font info for 77 fonts, out of 8000000 for 9000
+ 2353 strings out of 493089
+ 32165 string characters out of 6134842
+ 97712 words of memory out of 5000000
+ 5713 multiletter control sequences out of 15000+600000
+ 42064 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,5n,23p,735b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,23p,735b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbxti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmu
-10.pfb>
-Output written on monografia.pdf (19 pages, 178317 bytes).
+mti10.pfb>
+Output written on monografia.pdf (23 pages, 144411 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 110 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
