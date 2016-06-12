@@ -67,28 +67,7 @@
 \begin{document}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                  Capa da Monografia                %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{titlepage}
-  \begin{center}
-    \Large{\textsc{Universidade Federal Fluminense} \\
-           \textsc{Centro Tecnológico} \\ 
-           \textsc{Instituto de Computação} \\
-           \textsc{Curso de Sistemas de Informação} \\
-            \textsc{Curso de Ciência da Computação}
-          }
-    \par\vfill
-    \LARGE{IGOR BARBOSA PINTO}\\
-    \LARGE{TIAGO CÂNDIDO ALMEIDA SANTOS}
-    \par\vfill
-%    \bigskip
-    \LARGE{SISTEMA DE GESTÃO DE APRENDIZADO \\ (pensar em nome melhor)}
-    \par\vfill
-    \Large{Niterói-RJ\\2015}
-  \end{center}
-\end{titlepage}
+\input{capa_monografia.tex}
 
 
 
@@ -101,103 +80,9 @@
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                   Folha de Rosto                   %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{folha_de_rosto.tex}
 
-
-\begin{center}
-
-IGOR BARBOSA PINTO\\
-TIAGO CÂNDIDO ALMEIDA SANTOS
-
-\vfill
-
-SISTEMA DE GESTÃO DE APRENDIZADO
-
-\vspace{3.0cm}
-
-\begin{flushright}
-\begin{minipage}{0.50\textwidth}
-
-Monografia apresentada ao Departamento\linebreak
-de Ciência da Computação da Universidade \linebreak
-Federal Fluminense, como requisito parcial \linebreak
-para obtenção do Grau de Bacharel em \linebreak
-Ciência da Computação e \linebreak Bacharel de Sistemas de Informação.
-
-\end{minipage}
-\end{flushright}
-
-\vspace{3.0cm}
-
-Orientador: Prof. Dr. Raphael Pereira de Oliveira Guerra
-
-\vfill
-
-Niterói-RJ\\2015
-
-\end{center}
-
-\newpage
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                 Folha de Aprovação                 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\begin{center}
-
-%SEU NOME EM LETRA MAIÚSCULA
-
-%\vspace{1.0cm}
-
-%TÍTULO DA MONOGRAFIA EM LETRA MAIÚSCULA
-
-%\vspace{1.0cm}
-
-%\begin{flushright}
-%\begin{minipage}{0.45\textwidth}
-
-%Dissertação apresentada ao Curso de Graduação \linebreak em Engenharia de Telecomunicações da \linebreak Universidade Federal Fluminense, como \linebreak requisito parcial para obtenção do Grau de ???. Área de Concentração: Sistemas de Telecomunicações.
-
-%\end{minipage}
-%\end{flushright}
-
-%\vfill
-
-%\begin{flushleft}
-
-%Aprovada em MÊS de ANO.
-
-%\end{flushleft}
-
-%\vfill
-
-%BANCA EXAMINADORA
-
-%\vfill
-
-%\hrulefill \\Prof. Dr. NOME DO ORIENTADOR EM LETRA MAIÚSCULA - Orientador\\UFF\\
-
-%\vfill
-
-%\hrulefill \\Prof. NOME DO PROFESSOR\\INSTITUIÇÃO\\
-
-%\vfill
-
-%\hrulefill \\Prof. NOME DO PROFESSOR\\INSTITUIÇÃO\\
-
-%\vfill
-
-%\hrulefill \\Prof. NOME DO PROFESSOR\\INSTITUIÇÃO\\
-
-%\vfill
-
-%Niterói-RJ\\Ano de conclusão do trabalho
-
-%\end{center}
-
-%\newpage
+\input{folha_de_aprovacao.tex}
 
 \input{dedicatoria/dedicatoria.tex}
 
@@ -230,52 +115,10 @@ Niterói-RJ\\2015
 
 \input{conclusao/conclusao.tex}
 
+\input{trabalhos_futuros/trabalhos_futuros.tex}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%          Sugestões para trabalhos futuros            %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\chapter{Sugestões para trabalhos futuros}
-\thispagestyle{empty} % retira numeracao da pagina, conforme as normas de apresentacao.
-
-Com base no trabalho desenvolvido, diversas vertentes de trabalhos futuros podem ser identificadas.
-%
-Tais vertentes, assim como trabalhos individuais em cada vertente, podem ser listados e resumidos.
-%
-Dessa forma, novas pesquisas podem ser sugeridas, dando continuidade ao trabalho em questão.
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                  Referências Bibliográficas                     % 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{thebibliography}{10}
-\addcontentsline{toc}{chapter}{Referências Bibliográficas}
-
-\thispagestyle{myheadings}
-
-\bibitem{norma:esjo2005}
-        {Abreu, Estela dos Santos e Teixeira, José Carlos Abreu. 
-        \textit{Apresentação de Trabalhos Monográficos de Conclusão de Curso, 8a. edição revisada}, 
-        EdUFF, 2005.}
-
-\bibitem{website:ctan}{\textbf{CTAN} (Comprehensive TeX Archive Network), \textit{http://www.ctan.org/}.}
-% Este site é referência mundial para materiais relacionados ao TeX e LaTeX.
-
-\bibitem{livro:circuit}{JOHNS, David A. and MARTIN, Ken. \textit{Analog Integrated Circuit Design}, 
-John Wiley \& Sons, Inc., 1997.}
-
-\bibitem{book:signal}{MITRA, Sanjit K. , \textit{Digital Signal Processing - A Computer-Based Approach.}, 
-The McGraw-Hill Companies, Inc., 1998.}
-
-\end{thebibliography}
+\input{referencias_bibliograficas/referencias_bibliograficas.tex}
 
 \end{document}
 
-
-%%%%%%%%%%%%%%%%%
-% Fim do modelo %
-%%%%%%%%%%%%%%%%%
 
