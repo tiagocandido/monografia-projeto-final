@@ -2,22 +2,44 @@
 %                        Texto                         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Introdu��o}
+\chapter{Introdução}
 \thispagestyle{empty} % retira numeracao da pagina, conforme as normas de apresentacao.
+
+O uso de tecnologias digitais educacionais se torna cada vez mais presente nas universidades do Brasil e do mundo. Esta transformação das vias tradicionais de transferência do conhecimento gera grande impacto na restruturação e modernizaç̧ão do aprendizado \cite{book:peters}, incorporando um vasto ferramental às incumbências do ensino. Cria-se novos canais de comunicação que permitem desde a disseminação do conteúdo lecionado até o gerenciamento do calendário de atividades do curso.
+
+A combinação do uso destas tecnologias com o ensino tradicional em sala de aula cria um ambiente de \textit{blended learning}, que provou ser muito bem sucedido em muitos casos \cite{article:kudumovic}.
+
+A escolha da Tecnologia empregada em determinada Instituição de Ensino, em sua totalidade ou em suas menores partes organizacionais e cursos específicos, terá grande influência no grau de aprimoramento das interações de ensino pretendidas em relação ao potencial absoluto que essas tecnologias oferecem.
+
+O foco deste trabalho apresenta uma solução computacional, para uma possível segmentação na adoção de tecnologias educacionais, visando reduzir os impactos negativos dessa pluralidade de tecnologias no cotidiano dos seus usuários.
+
+
+\section{Cenário Atual}
+
+A redução do custo dos computadores e dispositivos portáteis, como smartphones e tablets, a ampliação do acesso à Internet em conexões de alta velocidade e a difusão de sistemas e tecnologias de informação, impulsionaram a adoção de tecnologias educacionais e uma reformulação das metodologias de aprendizado tradicionais.
+
+Na última década, presenciamos o crescimento espressivo da oferta em Educação a distância e semi presencial \cite{website:market_elearning}, consolidadas através do uso de Sistemas de Gestão de Aprendizado (SGA) como facilitadores do processo de aprendizado à distância. 		 	 	 		
+Em países como Australia, Reino Unido, Canadá e Estados Unidos, a adesão a algum SGA supera supera 90\% das IES \cite{article:hawkins}\cite{book:browne}, na Espanha a adesão é de 100\% das instituições \cite{article:prendes}, .
+
+A mesma tendência também pode ser observada nos ambientes de ensino presencial formal das Instituições de Ensino Superior brasileiras \cite{book:campus-comp-br} com o crescimento anual de 21,5\% na adesão de  plataformas digitais de ensino \cite{website:elearning_market}, ocupando atualmente a 3$^{a}$ posição mundial em número de registros da ferramenta líder mundial deste segmento, com 4,383 instalações ativas \cite{website:moodle-stats} .
+
+Conforme Oliveira \cite{book:oliveira}, o uso dos recursos tecnológicos no ambiente acadêmico proporciona ao aluno uma aprendizagem mais envolvente, como também faz com que os discentes passem a aprender precocemente os conteúdos e aprimorar suas habilidades que são estimuladas de maneira tardia ou que talvez não sejam exploradas.
+O uso pedagógico destes recursos tem potencializado os processos de interação entre estudantes e professores \cite{book:zanette}. 
 
 \section{Problema}
 
-A cria��o do sistema foi motivada pelo problema da descentraliza��o das informa��es e conte�dos das disciplinas da universidade. At� o presente momento tais informa��es est�o presentes em diversas plataformas de ensino diferentes, dificultando o acesso dos alunos e professores que as utilizam.
+Na instituição em que é desenvolvido este trabalho, no âmbito do instituto e cursos nos quais os autores estão inseridos, as tecnologias computacionais utilizadas no ensino estão distribuídas em uma série diversa de plataformas e tipos de mídia, com seus critérios de adoção muitas vezes exclusivamente delineados pela preferência dos professores ou alunos de cada disciplina em particular, ocasionando uma grande descentralização do conteúdo necessário para o curso do semestre letivo entre as diversas disciplinas de cada aluno em particular. 
+As possibilidades se dividem entre sites de professores e disciplinas, redes sociais de uso geral, pastas compartilhadas em sistemas de arquivos na nuvem, Sistemas de Gestão de Aprendizado variados, listas de e-mails, grupos de mensageiros instantâneos, entre outros.
 
-\section{Prop�sito}
+\section{Proposta}
 
-Este documento descreve o projeto de aplicativo proposto pelos autores para a disciplina de Projeto de Aplica��o I, especificando os requisitos da sua vers�o inicial.
+Este trabalho propõe um projeto de aplicativo, implementado pelos autores para a disciplina de Projeto de Aplicação I, com a especificação de seus requisitos  e a apresentação das tecnologias utilizadas para a implementação da sua versão inicial.
 
-\section{P�blico-Alvo e Sugest�es para Leitura}
+\section{Público destinado}
 
-Este documento se destina aos pr�prios autores e ao orientador do projeto como material de apoio ao desenvolvimento e gerenciamento das atividades. Tamb�m destina-se a outros desenvolvedores que visem estender o escopo do projeto.
+Este documento destina-se a toda a comunidade acadêmica da Universidade Federal Fluminense, bem como aos próprios autores, como forma de concretizar a solução de um problema no qual estiveram inseridos durante o decorrer das suas formações, ao orientador do projeto, como material de apoio ao desenvolvimento e gerenciamento das atividades planejadas e a possíveis futuros desenvolvedores quem venham a estender o escopo de funcionalidades do projeto.
 
 \section{Escopo do Produto}
 
-O produto se trata de um aplicativo m�vel multi-plataforma, que tem como prop�sito reunir, em uma �nica ferramenta, m�ltiplos ambientes de ensino, apresentando de maneira transparente ao usu�rio os servi�os oferecidos pelos diferentes ambientes de ensino, como eventos, t�picos, arquivos, mensagens, todos em uma �nica interface.
-O uso do aplicativo tem como objetivo aproximar alunos e professores das diversas disciplinas ministradas na universidade, intensificar a intera��o das turmas, centralizar as informa��es e materiais da disciplina e prover uma comunica��o r�pida e eficiente. Al�m disso, a ferramenta  prop�e a ludifica��o das atividades no grupo, atrav�s de desafios, marcos, medalhas e outros items que possam ser utilizados pelo professor da disciplina para gerar indicadores que permitam avaliar a participa��o dos alunos no grupo.
+O produto se trata de um aplicativo móvel multi-plataforma, que tem como propósito reunir, em uma única ferramenta, múltiplos ambientes de ensino, apresentando de maneira transparente ao usuário os serviços oferecidos pelos diferentes ambientes de ensino, como eventos, tópicos, arquivos, mensagens, todos em uma única interface.
+O uso do aplicativo tem como objetivo aproximar alunos e professores das diversas disciplinas ministradas na universidade, intensificar a interação das turmas, centralizar as informações e materiais da disciplina e prover uma comunicação rápida e eficiente. Além disso, a ferramenta  propõe a ludificação das atividades no grupo, através de desafios, marcos, medalhas e outros items que possam ser utilizados pelo professor da disciplina para gerar indicadores.
